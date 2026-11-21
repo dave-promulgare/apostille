@@ -1,6 +1,13 @@
 # OpenCrMS - Verifiable Credentials Platform
 
-A comprehensive platform for issuing, managing, and verifying digital credentials built on open standards.
+An open source credential management system for issuing, managing, and verifying
+digital credentials, with a focus on using the capabilities of the
+[DIDComm](https://didcomm.org/) protocols for secure, private, and interoperable
+exchange of verifiable credentials.
+
+OpenCrMS is a project of [LF Decentralized Trust (LFDT)](https://www.lfdecentralizedtrust.org/)
+and is run under the Maintainer Council governance model. See the
+[OpenCrMS governance repository](https://github.com/OpenCrMS/governance) for details.
 
 ## Features
 
@@ -130,6 +137,24 @@ The visual credential designer allows you to:
 - **Cache**: Redis (optional, for horizontal scaling)
 - **Protocols**: DIDComm v2, OID4VC, OpenBadges 3.0
 
+## Governance & Community
+
+OpenCrMS is governed under the Maintainer Council model. Governance documents live
+in the [OpenCrMS governance repository](https://github.com/OpenCrMS/governance):
+
+| Document | Purpose |
+| -------- | ------- |
+| [GOVERNANCE.md](https://github.com/OpenCrMS/governance/blob/main/GOVERNANCE.md) | How the project is run: values, the Maintainer Council, how maintainers are added and removed, meetings, voting, and amendments. |
+| [MAINTAINERS.md](https://github.com/OpenCrMS/governance/blob/main/MAINTAINERS.md) | Current and emeritus maintainers, with their affiliations. |
+| [CONTRIBUTING.md](https://github.com/OpenCrMS/governance/blob/main/CONTRIBUTING.md) | How to contribute, including the pull request process and DCO sign-off requirement. |
+| [CODE_OF_CONDUCT.md](https://github.com/OpenCrMS/governance/blob/main/CODE_OF_CONDUCT.md) | The standards of behavior we hold ourselves to, following the LFDT Code of Conduct. |
+| [SECURITY.md](https://github.com/OpenCrMS/governance/blob/main/SECURITY.md) | How to report a vulnerability and how the Security Response Team handles it. |
+| [ADOPTERS.md](https://github.com/OpenCrMS/governance/blob/main/ADOPTERS.md) | Organizations using OpenCrMS. |
+
+Everyone is welcome to participate. A good place to start is the
+[contributing guide](https://github.com/OpenCrMS/governance/blob/main/CONTRIBUTING.md).
+
 ## License
 
-Apache-2.0
+Unless otherwise noted, the contents of this repository are released under the
+[Apache License 2.0](./LICENSE).
